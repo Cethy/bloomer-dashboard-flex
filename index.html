@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My first Bulma website</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="dashboard-flex">
+    <header class="mast-header column navbar">
+        <nav class="level">
+            <div class="level-left">
+                <div class="level-item">
+                    <nav class="breadcrumb has-succeeds-separator" aria-label="breadcrumbs">
+                        <ul>
+                            <li class=""><a href="#">Home</a></li>
+                            <li class=""><a href="#">Page 2</a></li>
+                            <li class=""><a href="#">Components</a></li>
+                            <li class="is-active"><a href="#" aria-current="page">Breadcrumb</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="level-right">
+                <div class="level-right">
+                    <div class="level-item"><strong>All</strong></div>
+                    <div class="level-item"><a>Published</a></div>
+                    <div class="level-item"><a>Drafts</a></div>
+                    <div class="level-item"><a>Deleted</a></div>
+                    <div class="level-item"><a href="#" class="button is-success">New</a></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class='column'>
+        <div class="has-text-centered" style="margin: 2rem 0">
+            <h2 class="title">
+                Dashboard concept <br/>
+                <small class="is-italic">
+                    with <a href="https://bulma.io">bloomer</a> & css flexbox rules
+                </small>
+            </h2>
+            <h1 class="title">
+                <a href="https://github.com/Cethy/bloomer-dashboard-flex">
+                    <code>bloomer-dashboard-flex</code>
+                </a>
+            </h1>
+        </div>
+
+        <p>
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
+            tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
+            semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+        </p>
+    </main>
+
+    <aside class="side-controller column is-left is-opened">
+        <div class="side-controller-content is-2">
+            <nav class="menu"><p class="menu-label">General</p>
+                <ul class="menu-list">
+                    <li><a class="is-active">Dashboard</a></li>
+                    <li><a>Customers</a></li>
+                </ul>
+                <p class="menu-label">Administration</p>
+                <ul class="menu-list">
+                    <li><a>Team Settings</a></li>
+                    <li><a class="">Manage Your Team</a>
+                        <ul>
+                            <li><a>Members</a></li>
+                            <li><a>Plugins</a></li>
+                            <li><a>Add a member</a></li>
+                        </ul>
+                    </li>
+                    <li><a>Invitations</a></li>
+                    <li><a>Cloud Storage Environment Settings</a></li>
+                    <li><a>Authentication</a></li>
+                </ul>
+                <p class="menu-label">Transactions</p>
+                <ul class="menu-list">
+                    <li><a>Payments</a></li>
+                    <li><a>Transfers</a></li>
+                    <li><a>Balance</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="content">
+                <div class="columns">
+                    <div class="column">
+                        <p>
+                            Made with <a href="https://bulma.io">bulma</a> & <span class="icon has-text-danger fa fa-heart" ></span>at <a href="https://cethyworks.io" >cethyworks.io</a>
+                            <br/>
+
+                        </p>
+                    </div>
+                </div>
+                <div class="content is-small">
+                    <p>
+                        The <a href="https://github.com/Cethy/bloomer-dashboard-flex">source code</a> is licensed under <a>MIT</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script type="text/javascript" src="lib/main.js"></script>
+</body>
+</html>
