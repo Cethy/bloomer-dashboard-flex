@@ -1,6 +1,8 @@
 # Dashboard prototype w/ bloomer & css flexbox rules
 
-![screenshot]("./docs/capture.png")
+![screenshot](./docs/capture.png)
+
+[Demo](https://bloomer-dashboard-flex.netlify.com/)
 
 ## CSS flexbox rules (`sass` format)
 ```sass
