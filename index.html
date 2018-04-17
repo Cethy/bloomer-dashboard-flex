@@ -10,30 +10,34 @@
 </head>
 <body>
 <div class="dashboard-flex">
-    <header class="mast-header column navbar">
-        <nav class="level">
-            <div class="level-left">
-                <div class="level-item">
-                    <nav class="breadcrumb has-succeeds-separator" aria-label="breadcrumbs">
-                        <ul>
-                            <li class=""><a href="#">Home</a></li>
-                            <li class=""><a href="#">Page 2</a></li>
-                            <li class=""><a href="#">Components</a></li>
-                            <li class="is-active"><a href="#" aria-current="page">Breadcrumb</a></li>
-                        </ul>
-                    </nav>
-                </div>
+    <header class="mast-header navbar">
+        <div class="navbar-brand">
+            <div class="navbar-item">
+                <nav class="breadcrumb has-succeeds-separator" aria-label="breadcrumbs">
+                    <ul>
+                        <li class="is-hidden-mobile"><a href="#">Home</a></li>
+                        <li class="is-hidden-mobile"><a href="#">Page 2</a></li>
+                        <li class=""><a href="#">Components</a></li>
+                        <li class="is-active"><a href="#" aria-current="page">Breadcrumb</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div class="level-right">
-                <div class="level-right">
-                    <div class="level-item"><strong>All</strong></div>
-                    <div class="level-item"><a>Published</a></div>
-                    <div class="level-item"><a>Drafts</a></div>
-                    <div class="level-item"><a>Deleted</a></div>
-                    <div class="level-item"><a href="#" class="button is-success">New</a></div>
-                </div>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="nav-menu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="nav-menu" class="navbar-menu has-text-centered">
+            <div class="navbar-end">
+                <div class="navbar-item"><strong>All</strong></div>
+                <div class="navbar-item"><a>Published</a></div>
+                <div class="navbar-item"><a>Drafts</a></div>
+                <div class="navbar-item"><a>Deleted</a></div>
+                <div class="navbar-item"><a href="#" class="button is-success">New</a></div>
             </div>
-        </nav>
+        </div>
     </header>
 
     <main class='column'>
